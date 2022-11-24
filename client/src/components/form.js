@@ -13,7 +13,7 @@ const Form = () => {
 
   const handlesubmit = async () => {
     try {
-      console.log("yes entered")
+      console.log("yes entered");
       const response = await axios.post("/api/save", {
         type,
         category,
@@ -42,8 +42,8 @@ const Form = () => {
             id="exampleFormControlSelect1"
           >
             <option value=""> Select Content type </option>
-            <option value="news"> News </option>
-            <option value="jokes">Jokes</option>
+            <option value="news">Recent News </option>
+            <option value="jokes">Funny Jokes</option>
             <option value="quotes">Motivational quotes</option>
           </select>
         </div>

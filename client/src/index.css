@@ -1,13 +1,28 @@
-.style{
+.style {
   background-color: rgb(74, 56, 104);
   padding: 20px;
 }
 
-.boxstyle{
+.boxstyle {
   background-color: rgb(235, 228, 218);
-  
 }
-.boxstyle1{
+.boxstyle1 {
   padding-left: 600px;
   margin: auto;
 }
+/* .preloader {
+  background: #000 url(components/preloader 3.gif) no-repeat center;
+  background-size: 15%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+} */
+/* .preloader {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+} */
