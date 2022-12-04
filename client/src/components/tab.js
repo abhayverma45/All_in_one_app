@@ -60,6 +60,7 @@ export default function BasicTabs() {
             value={value}
             onChange={handleChange}
             aria-label="basic tabs example"
+            variant="fullWidth"
           >
             <Tab label="Recent News" {...a11yProps(0)} />
             <Tab label="Funny Jokes" {...a11yProps(1)} />

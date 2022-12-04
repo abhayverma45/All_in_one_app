@@ -1,12 +1,11 @@
-const mongoose=require ("mongoose")
-const abhay=new mongoose.Schema({
-    type:String,
-    category:String,
-    headline:String,
+const mongoose = require("mongoose");
+const abhay = new mongoose.Schema({
+  type: String,
+  category: String,
+  headline: String,
 
-    description:String,
+  description: String,
+});
 
-})
-
-const model1=mongoose.model("model1",abhay);
-module.exports=model1;
+const model1 = mongoose.model("model1", abhay);
+module.exports = model1;
